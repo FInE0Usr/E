@@ -212,7 +212,7 @@ def nn_content_page():
 def nn_demo_page():
     st.title("Neural Network Demo")
     st.write("### One Piece Character Classifier")
-    st.write("อัปโหลดภาพตัวละครใน One Piece เพื่อทำนายว่าเป็นใคร")
+    st.write("### อัปโหลดภาพตัวละครใน One Piece เพื่อทำนายว่าเป็นใคร (Luffy, Sanji, Zoro)")
 
     # โหลดโมเดล
     @st.cache_resource  # Cache โมเดลเพื่อเพิ่มประสิทธิภาพ
